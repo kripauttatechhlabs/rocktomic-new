@@ -178,3 +178,63 @@
     text-transform: uppercase;
     padding:15px 20px;
   }
+
+  .clear-form-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 96%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #4877C6;
+    cursor: pointer;
+}
+
+.form-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+   
+    color: #3D3D3D;
+}
+
+.form-input {
+    height: 31px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 10px;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 1px solid #908e8e;
+}
+
+.form-checkbox {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C2C2C2;
+    float: left;
+}
+
+.from-agreement {
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 96%;
+    color: #3D3D3D;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.from-agreement span {
+    color: #4877C6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.from-agreement span:hover {
+    color: #28487E;
+}
