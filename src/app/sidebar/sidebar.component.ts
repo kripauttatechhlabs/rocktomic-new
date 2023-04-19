@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router, ActivatedRoute } from '@angular/router';
 declare const $: any;
 declare interface RouteInfo {
     path: string;
@@ -9,7 +9,7 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
     { path: 'admin/dashboard', title: 'Dashboard',  icon: 'pe-7s-graph', class: '' },
-    // { path: '/user', title: 'User Profile',  icon:'pe-7s-user', class: '' },
+    //{ path: '/logout', title: 'Logout',  icon:'pe-7s-power', class: '' },
     // { path: '/table', title: 'Table List',  icon:'pe-7s-note2', class: '' },
     // { path: '/typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
     // { path: '/icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
@@ -25,7 +25,7 @@ export const ROUTES: RouteInfo[] = [
 export class SidebarComponent implements OnInit {
   menuItems: any[];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.menuItems = ROUTES.filter(menuItem => menuItem);
@@ -36,4 +36,8 @@ export class SidebarComponent implements OnInit {
       }
       return true;
   };
+  logout(){
+    localStorage.clear();
+    this.router.navigate(['/']);
+  }
 }
