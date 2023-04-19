@@ -30,7 +30,7 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
     TypographyComponent,
     IconsComponent,
     NotificationsComponent,
-    UpgradeComponent
+    UpgradeComponent,
   ]
 })
 
