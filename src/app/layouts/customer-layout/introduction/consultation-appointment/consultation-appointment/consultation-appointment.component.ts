@@ -14,7 +14,7 @@ export class ConsultationAppointmentComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/informationverification']);
+    this.router.navigate(['customer//introduction/informationverification']);
   }
 
 }

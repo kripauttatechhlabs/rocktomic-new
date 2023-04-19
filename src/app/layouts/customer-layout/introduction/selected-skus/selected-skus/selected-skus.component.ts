@@ -15,7 +15,7 @@ export class SelectedSkusComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/bundlesku']);
+    this.router.navigate(['customer/introduction/bundlesku']);
   }
 
   congratulationPopup() {

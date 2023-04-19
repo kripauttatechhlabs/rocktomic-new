@@ -18,7 +18,7 @@ export class PaymentConsultaionComponent implements OnInit {
     
   } 
   goToNext(){
-    this.router.navigate(['welcome/introduction/product']);
+    this.router.navigate(['customer/introduction/product']);
   
   }
   addNewCardOpen() {

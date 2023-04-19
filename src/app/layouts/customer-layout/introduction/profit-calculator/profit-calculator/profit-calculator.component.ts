@@ -14,7 +14,7 @@ export class ProfitCalculatorComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/selectedskus']);
+    this.router.navigate(['customer/introduction/selectedskus']);
   }
 
 

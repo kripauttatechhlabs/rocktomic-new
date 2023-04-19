@@ -24,7 +24,7 @@ export class BrandComponent implements OnInit {
 
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/sku']);
+    this.router.navigate(['customer/introduction/sku']);
   
   }
 

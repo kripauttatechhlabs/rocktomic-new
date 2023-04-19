@@ -14,7 +14,7 @@ export class InformationVerificationComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/confirmation']);
+    this.router.navigate(['customer/introduction/confirmation']);
   }
 
 }

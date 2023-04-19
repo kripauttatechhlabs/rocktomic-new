@@ -14,7 +14,7 @@ export class PickYourSkuComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/payment']);
+    this.router.navigate(['customer/introduction/payment']);
   
   }
 

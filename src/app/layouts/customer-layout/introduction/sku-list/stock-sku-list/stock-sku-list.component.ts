@@ -17,7 +17,7 @@ export class StockSkuListComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/additionalsku']);
+    this.router.navigate(['customer/introduction/additionalsku']);
   }
   savePopup() {
 		const modalRef = this.modalService.open(SavePopupComponent);

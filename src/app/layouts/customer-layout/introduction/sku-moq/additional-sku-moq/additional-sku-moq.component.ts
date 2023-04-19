@@ -13,7 +13,7 @@ export class AdditionalSkuMoqComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/consultationprocess']);
+    this.router.navigate(['customer/introduction/consultationprocess']);
   }
 
 }

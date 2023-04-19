@@ -17,10 +17,15 @@ import { StandaloneSkuListComponent } from './standalone-sku-list/standalone-sku
 import { ProfitCalculatorComponent } from './profit-calculator/profit-calculator/profit-calculator.component';
 import { SelectedSkusComponent } from './selected-skus/selected-skus/selected-skus.component';
 import { BundleSkusComponent } from './bundle-skus/bundle-skus/bundle-skus.component';
+import { WelcomeContentComponent } from './welcome-content/welcome-content.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path:'',
+    component:WelcomeContentComponent
+  },
+  {
+    path: 'personal-information',
     component: IntroductionComponent
   },
   {

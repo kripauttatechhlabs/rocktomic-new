@@ -14,7 +14,7 @@ export class ConsultationProcessComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/standaloneskulist']);
+    this.router.navigate(['customer/introduction/standaloneskulist']);
 
   }
 

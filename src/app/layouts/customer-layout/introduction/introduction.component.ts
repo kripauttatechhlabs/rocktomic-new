@@ -193,7 +193,6 @@ export class IntroductionComponent implements OnInit {
 
 
   goToNext(){
-    alert('sssss');
-    this.router.navigate(['introduction/terms']);
+    this.router.navigate(['customer/introduction/terms']);
   }
 }

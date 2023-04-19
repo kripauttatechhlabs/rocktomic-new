@@ -15,7 +15,7 @@ export class ConfirmationComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/skuselection']);
+    this.router.navigate(['customer/introduction/skuselection']);
   }
   cancelAppointment() {
 		const modalRef = this.modalService.open(CancelAppointmentComponent,{windowClass: 'appcustom-modal-med'});

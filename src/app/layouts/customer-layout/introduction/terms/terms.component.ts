@@ -18,7 +18,7 @@ export class TermsComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/brand']);
+    this.router.navigate(['customer/introduction/brand']);
   }
 
 }

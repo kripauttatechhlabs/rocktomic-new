@@ -14,7 +14,7 @@ export class SkuSelectionComponent implements OnInit {
   }
 
   goToNext(){
-    this.router.navigate(['welcome/introduction/stocklist']);
+    this.router.navigate(['customer/introduction/stocklist']);
   }
 
 }

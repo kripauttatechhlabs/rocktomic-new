@@ -13,7 +13,7 @@ export class ProductConsultationComponent implements OnInit {
   ngOnInit(): void {
   }
   goToNext(){
-    this.router.navigate(['welcome/introduction/appointment']);
+    this.router.navigate(['customer/introduction/appointment']);
   
   }
 }
