@@ -1,0 +1,47 @@
+.appo-heading{ background: #DBDFE3; font-size: 14px; font-weight: 500; color: #3D3D3D; padding: 15px 15px; margin: 0;}
+.appo-content{font-size: 16px; font-weight: 500; color: #3D3D3D; padding: 15px 15px; margin: 0;}
+.appo-time { border: 1px solid #C2C2C2; width: 100%; height: 40px; font-size: 16px; color: #3D3D3D; font-weight: 500;}
+.cont-wrapper-appo{ width: 100%; border: 2px solid #C2C2C2; height: 118px; text-align: center; padding: 5px;}
+.cont-wrapper-appo p{ margin: 0;}
+.cont-wrapper-appo:hover{background: #4877C6; border-color:#4877C6 ;}
+
+.cont-wrapper-appo .appo-btn{ background: transparent; border: 2px solid #C2C2C2; font-size: 14px; color: #3D3D3D; font-weight: 600; margin-top: 5px;}
+.event-time{ text-transform: capitalize; font-weight: 400;}
+.weak-name{ font-size: 14px ; font-weight: 600;}
+.month-name{font-size: 14px; font-weight: 600;}
+
+.cont-wrapper-appo:hover p.event-time { color: #fff}
+.cont-wrapper-appo:hover p.weak-name{ color: #fff}
+.cont-wrapper-appo:hover p.month-name{ color: #fff}
+.cont-wrapper-appo:hover .appo-btn { color: #fff; background-color: #F57373; border-color: #F57373;}
+
+.active-box{ background: #4877C6; border-color:#4877C6}
+.active-box p.event-time { color: #fff}
+.active-box p.weak-name{ color: #fff}
+.active-box p.month-name{ color: #fff}
+.active-box .appo-btn { color: #fff; background-color: #F57373; border-color: #F57373;}
+
+
+
+
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }

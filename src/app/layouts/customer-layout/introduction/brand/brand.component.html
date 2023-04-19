@@ -1,0 +1,110 @@
+
+
+<div class="row">
+    <div class="col-lg-3 text-end">
+        <img src="assets/images/model-3.png" class="model-1">
+    </div>
+    <div class="col-lg-9">
+        <div class="speech-bubble">
+            <h3 class="title">Let’s create your brand profile.</h3>
+            <p class="sub-title">
+                Your labels are required to display your brand name and address as well as one form of contact
+                (i.e., website, email, or phone). We'll use the information below for that purpose.
+                If you do not have a physical address, you may use the address of our warehouse.
+                Once you've entered the required information, please click the "SAVE & NEXT" button.
+
+            </p>
+        </div>
+        <div class="cont-wrapper">
+            <div class="content-body mt-5">
+                <div class="page">
+                    <div class="row text-end">
+                        <div class="col-md-12 clear-form-btn">CLEAR FORM</div>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Name of your brand</label>
+                            <input type="text" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Distributor Website</label>
+                            <input type="text" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Distributor Email</label>
+                            <input type="email" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Distributor Phone</label>
+                            <input type="email" class="form-input">
+                        </div>
+                        <div class="form-group mt-2 mb-4">
+                            <input type="checkbox" value="1"  (click)="showAddress($event)" class="form-checkbox">
+                            <p class="from-agreement">Use Rocktomic's Address</p>
+                        </div><br/>
+
+                        <ng-container *ngIf="isAddress">
+                            <div class="row" >
+                                <p>Rocktomic Address:</p>
+                                <p>12 Mallard Ridge Easton,md, 21601 United States</p>
+                            </div>
+                        </ng-container>
+
+
+                        <ng-container *ngIf="isAddress===false">
+                            <div class="row"  >
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-label">City</label>
+                                        <input type="text" class="form-input">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-label">Street</label>
+                                        <input type="text" class="form-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-label">State</label>
+                                        <input type="text" class="form-input">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-label">Zip Code</label>
+                                        <input type="text" class="form-input">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </ng-container>
+
+
+
+                    </form>
+
+                  
+                </div>
+
+
+            </div>
+            <div class="container-footer-design" style="margin: auto;"></div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+
+    <div class="col-lg-12 text-end">
+        <button class="exit mt-3">Save & Exit</button>
+        <button class="next mt-3 ms-2" (click)="goToNext()">Save & Next</button>
+    </div>
+</div>

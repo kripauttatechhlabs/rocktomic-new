@@ -1,0 +1,111 @@
+.appo-heading{ background: #DBDFE3; font-size: 14px; font-weight: 500; color: #3D3D3D; padding: 15px 15px; margin: 0;}
+.appo-content{font-size: 16px; font-weight: 500; color: #3D3D3D; padding: 15px 15px; margin: 0;}
+
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }
+
+  .form-label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D3D3D;
+}
+
+.form-input {
+    height: 31px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.purchase button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #264579;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.purchase button img {
+    margin-right: 10px;
+}
+.mr-2{ margin-right: 10px;}
+.stp-3-btn button{ border: none; height: 36px; background: #D9D9D9; color:#3D3D3D; font-size: 14px; text-transform: uppercase; padding-left: 30px; padding-right: 30px; }
+
+
+.skip button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #F57373;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+}
+.skip button img{ margin-right: 10px;}
+
+.purchase button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #264579;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+}
+.purchase button img{ margin-right: 10px;}
+.purchase{  margin-right: 20px;}
+
+
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }
+
+  .appo-head{ color: #3D3D3D; font-size: 24px; font-weight: 500;}
+  .appcustom-modal-med .modal-content {
+    background-color: transparent !important;
+  }

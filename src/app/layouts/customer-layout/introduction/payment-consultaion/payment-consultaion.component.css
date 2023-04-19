@@ -1,0 +1,51 @@
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }
+
+  .payment-section h4
+  {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4877C6
+  }
+  .payment-section table{ background:#F5F5F5
+  }
+
+  .payment-section table thead{ background:#DFDFDF
+  }
+  .payment-section table thead tr th{ border: none !important; font-size: 14px;}
+  .payment-section table tbody tr:last-child td{ border: none !important;}
+  .payment-section table tbody tr td{font-size: 14px;}
+
+
+.w-90{ width: 90%;padding: 10px 20px !important;}
+.mr-2{ margin-right: 15px; }
+.payment-input{ background: none; border: 1px solid #C2C2C2; height: 40px !important; padding: 0 10px !important;}
+.payment-section2 tbody tr td{ border: none !important;}
+
+.payment-section2 p{ margin-bottom: 0;}
+.payment-section2 table tbody tr:last-child td{border-top: 1px solid #dee2e6 !important; padding-bottom: 30px;}
+.big-txt-table{ font-size: 18px;  font-weight: 500;}
+.credit-txt{ font-size: 16px; color: #000; font-weight: 500;}
+.payment-section2 tbody tr td{ font-size: 12px; color: #3D3D3D;}
+.holder-name{color: #A5A5A5; text-transform: uppercase; margin-top: 10px;;}
+.margin-little{ margin-top: 6px;}
+

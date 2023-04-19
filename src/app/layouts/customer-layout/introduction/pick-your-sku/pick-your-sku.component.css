@@ -1,0 +1,81 @@
+.product-fee{
+    background: #578CE4;
+    border-radius: 10px;
+    width: 334px;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+   
+   
+}
+.product-fee span{
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+ 
+   
+    color: #FFFFFF;
+
+}
+
+.product-fee h3{
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 15px;
+ 
+    
+    color: #FFFFFF;
+
+}
+
+
+.skip button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #F57373;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+}
+.skip button img{ margin-right: 10px;}
+
+.purchase button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #264579;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+}
+.purchase button img{ margin-right: 10px;}
+.purchase{  margin-right: 20px;}
+
+
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }

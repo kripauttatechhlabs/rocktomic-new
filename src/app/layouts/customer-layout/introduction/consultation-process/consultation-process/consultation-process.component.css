@@ -1,0 +1,87 @@
+
+.skip button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #F57373;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+}
+.skip button img{ margin-right: 10px;}
+
+.sku-btn-part button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #264579;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF;
+    width: 100%;
+    text-transform: uppercase;
+    border: 2px solid #264579;
+
+}
+
+
+.sku-btn-part button.whitebase{    color: #264579;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+
+
+
+.exit{
+  
+    color: white;
+    background-color: transparent;border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  
+  }
+  
+  .next{
+    color: white;
+    background-color: #264579;border: none;
+    border: 1px solid #264579;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:15px 20px;
+  }
+
+  .whitebase-active{font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background: #264579 !important;
+    border-radius: 5px;
+ padding:10px 20px;
+   border: none;
+    color: #FFFFFF !important;
+    width: 100%;
+    text-transform: uppercase;
+    border: 2px solid #264579 !important;
+}
+.whitebase:hover{font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  background: #264579 !important;
+  border-radius: 5px;
+padding:10px 20px;
+ border: none;
+  color: #FFFFFF !important;
+  width: 100%;
+  text-transform: uppercase;
+  border: 2px solid #264579 !important;}

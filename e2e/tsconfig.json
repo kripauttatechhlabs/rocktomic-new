@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "skipLibCheck": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
