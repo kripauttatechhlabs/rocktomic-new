@@ -1,0 +1,55 @@
+<div class="row p-2 header sticky-top">
+    <div class="col-md-12">
+        <img src="assets/images/logo.png" class="logo">
+
+        <div class="dropdown text-end">
+            <button class="btn btn-secondary dropdown-toggle profile-menu-button" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Hi,David
+            </button>
+            <span><img src="assets/images/admin-profile.jpg" class="profile-imgage"></span>
+            <ul class="dropdown-menu profile-submenu">
+                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Profile</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Page 2 steper -->
+<div class="w-100 white-bg p-2 fixed-top steper-form-status" *ngIf="page_index>=1">
+   
+
+
+        <div class="container">
+
+            <div class="row mb-5 mt-3" style="width: 95%;">
+               <div class="col-md-3" style="position: relative;">
+                   <div class="steper-line ">
+                       <div class="steper-line-partial" [ngClass]="{'steper-line-active': page_index >= 1}"></div>
+                       <div class="steper-line-completed" [ngClass]="{'steper-line-active': page_index >= 2}"></div>
+                   </div>
+                   <div class="steper-index steper-active">1</div>
+                   <span class="form-status fotm-status-active">
+                       Account Brand Information
+                   </span>
+               </div>
+               <div class="col-md-3" style="position: relative;">
+                   <div class="steper-line"></div>
+                   <div class="steper-index steper-inactive">2</div>
+                   <span class="form-status">Niche Market/SKU Selection</span>
+               </div>
+               <div class="col-md-3" style="position: relative;">
+                   <div class="steper-line"></div>
+                   <div class="steper-index steper-inactive">3</div>
+                   <span class="form-status">Logo/Label Design & Regulatory Review</span>
+               </div>
+               <div class="col-md-3" style="position: relative;">
+                   <div class="steper-line"></div>
+                   <div class="steper-index steper-inactive">4</div>
+                   <span class="form-status">Online Store Setup Integration</span>
+               </div>
+           </div>
+          </div>
+  
+</div>
